@@ -80,6 +80,7 @@ class Config:
     # compressed file (with .gz extension)
     #TEST_CASE_FILE = "test_cases_6.json"        # K up to 10^6
     TEST_CASE_FILE = "test_cases_14.json"       # K up to 10^14
+    #TEST_CASE_FILE = "test_cases_64.json"        # K up to 2^64
 
     # If test cases input and expected output are in separate files, name of file
     # with expected outputs for test cases. Empty string - if they in one file.
