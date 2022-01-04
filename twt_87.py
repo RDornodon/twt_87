@@ -1,0 +1,1 @@
+for I in[I:=input]*int(I()):N=int(I());print(*[v for k,v in[(n,int(N**(1/n)))for n in range(2,len(f'{N:b}'))]if sum(v**m for m in range(k+1))==N][-1:]or[N-1])
