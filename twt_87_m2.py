@@ -1,0 +1,1 @@
+for I in[I:=input]*int(I()):N=int(I());print(*[M for n in range(2,46)if(M:=int(N**(1/n)))>=2and sum(M**q for q in range(n+1))==N][-1:]or[N-1])

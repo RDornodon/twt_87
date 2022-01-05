@@ -61,7 +61,7 @@ class Config:
     #   Relative path to this script file
     # SOLUTION_SRC_FILE_NAME = "Rust/C83_rust/src/main.rs"
     #   File in same folder as this script
-    SOLUTION_SRC_FILE_NAME = "twt_87.py"
+    SOLUTION_SRC_FILE_NAME = "twt_87_min.py"
 
     # Command to run your solution written in other language then Python
     # For compiled languages compile yourself and use compiled executable file name
@@ -73,14 +73,14 @@ class Config:
     # OTHER_LANG_COMMAND = "/home/user/Dev/Rust/c83_rust/target/release/c83_rust"
     # OTHER_LANG_COMMAND = "d:/Dev/C_Sharp/c83_cs/bin/Debug/net6.0/c83_cs.exe"
     # OTHER_LANG_COMMAND = "java -cp Java/ c83_java.Main"
-    OTHER_LANG_COMMAND = ""
+    OTHER_LANG_COMMAND = "python twt_87_min.py"
 
     # Name of file with inputs test cases (and output if SEP_INP_OUT_TESTCASE_FILE is False)
     # If test cases file is compressed, you don't need to extract it, just give name of
     # compressed file (with .gz extension)
     #TEST_CASE_FILE = "test_cases_6.json"        # K up to 10^6
     TEST_CASE_FILE = "test_cases_14.json"       # K up to 10^14
-    #TEST_CASE_FILE = "test_cases_64.json"        # K up to 2^64
+    TEST_CASE_FILE = "test_cases_random.json"        # K up to 2^64
 
     # If test cases input and expected output are in separate files, name of file
     # with expected outputs for test cases. Empty string - if they in one file.

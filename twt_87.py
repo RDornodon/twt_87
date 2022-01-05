@@ -1,1 +1,1 @@
-for I in[I:=input]*int(I()):N=int(I());Q={M:n for n in range(2,44)if(M:=int(N**(1/n)))>=2};print(*[a for a in Q if sum(a**q for q in range(Q[a]+1))==N][-1:]or[N-1])
+for I in[I:=input]*int(I()):N=int(I());Q={M:n for n in range(2,46)if(M:=int(N**(1/n)))>=2};print(*[a for a in Q if sum(a**q for q in range(Q[a]+1))==N][-1:]or[N-1])
